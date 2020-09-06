@@ -29,7 +29,7 @@ export class Tab1Page implements OnInit{
       if (resp.articles.length === 0) {
         this.disableScroll = true;
       }
-      
+
       if (event) {
         event.target.complete();
       }
